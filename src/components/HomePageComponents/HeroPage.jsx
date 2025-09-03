@@ -1,14 +1,14 @@
 import React from 'react'
 import heroimg from '../../assets/img/heroimg.png'
 import { Link } from 'react-router-dom'
-import { Award } from 'lucide-react'
+import { Award, BadgeCheck } from 'lucide-react'
 
 const HeroPage = () => {
     return (
-        <section id="home" className="min-h-[90vh]  flex items-center  bg-no-repeat bg-cover bg-center pt-[10%] rounded-b-[90px] relative" style={{
+        <section id="home" className="min-h-[90vh]  flex justify-center items-center  bg-no-repeat bg-cover bg-center pt-[10%] rounded-b-[190px] md:rounded-b-[90px] relative" style={{
             backgroundImage: ` url(${heroimg})`,
         }}>
-            <div className='absolute bottom-0 left-40 right-40 mb-10 flex justify-between'>
+            <div className='hidden absolute bottom-0 left-40 right-40 mb-10 md:flex justify-between'>
                 <div className='text-white text-sm '>
                     <h1 className='font-bold text-4xl pb-3'>Let the Sun Do the Work.</h1>
                     <p>Power your home or business with clean, reliable solar energy.</p>
@@ -75,6 +75,44 @@ const HeroPage = () => {
                             </clipPath>
                         </defs>
                     </svg>
+                        Custom Energy Solutions.
+                    </p>
+                </div>
+
+            </div>
+
+
+
+
+            <div className='flex flex-col gap-10 justify-center items-center md:hidden px-10'>
+                <div className='text-white text-sm '>
+                    <h1 className='font-bold text-3xl pb-3'>Let the Sun Do the Work.</h1>
+                    <p>Power your home or business with clean, reliable solar energy.</p>
+                    <p className='pb-5'> <span className='font-semibold'>HOBBS ENERGY </span> makes switching to solar easy, affordable, and stress-free.</p>
+
+                    <div>
+                        <Link to="/get-started" >
+                            <button className="bg-gradient-to-r from-[#F58C2A] to-[#F5512A] text-white text-sm font-semibold px-6 py-3 rounded-full [box-shadow:inset_0_0px_3px_rgba(0,0,0,0.4)] cursor-pointer w-full ">
+                                Request a Free Consultation
+                            </button>
+                        </Link>
+                    </div>
+                </div>
+
+                <div className='relative bg-white/20 backdrop-blur-sm text-white flex justify-center flex-col gap-3 py-5 px-10 text-sm rounded-b-3xl rounded-tl-3xl w-full'>
+                    <div className="absolute -top-4 -right-4 bg-gradient-to-r from-[#F58C2A] to-[#F5512A] p-2 rounded-full shadow-lg">
+                        <Award className="text-white w-6 h-6" />
+                    </div>
+                    <p className='flex items-center gap-2'>
+                       <BadgeCheck className='text-[#F58C2A]' />
+                        Quality Solar Installations.
+                    </p>
+                    <p className='flex items-center gap-2'>
+                    <BadgeCheck className='text-[#F58C2A]' />
+                        Expert Maintenance.
+                    </p>
+                    <p className='flex items-center gap-2'>
+                    <BadgeCheck className='text-[#F58C2A]' />
                         Custom Energy Solutions.
                     </p>
                 </div>

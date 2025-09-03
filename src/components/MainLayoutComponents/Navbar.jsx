@@ -44,7 +44,7 @@ const Navbar = () => {
 
             </div>
 
-            <div className='hidden sm:block'>
+            <div className='hidden md:block'>
               <Link to="/get-started" >
                 <button className="bg-gradient-to-r from-[#F58C2A] to-[#F5512A] text-white text-sm font-semibold px-6 py-2 rounded-full [box-shadow:inset_0_0px_3px_rgba(0,0,0,0.4)] ">
                   Contact Us
@@ -67,7 +67,7 @@ const Navbar = () => {
                   strokeWidth="2"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  color='#FF3366'
+                  color='#FFF'
                 >
 
                   <path d="M4 6h16M4 12h16M4 18h16" />
