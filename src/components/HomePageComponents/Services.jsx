@@ -61,7 +61,7 @@ const Services = () => {
         <div className="carousel carousel-center rounded-t-4xl">
           {servicesData.map((service) => (
             <div key={service.id} className="carousel-item relative">
-              <img src={service.image} alt="services_image" className="w-98" />
+              <img src={service.image} alt="services_image" className="w-98 2xl:w-[500px]" />
   
               <div className="absolute bottom-8 left-0 right-0 mx-8 p-3 text-white bg-white/10 backdrop-blur-sm rounded-md transition-all ">
                 <p className="w-full text-base font-semibold">{service.title}</p>
