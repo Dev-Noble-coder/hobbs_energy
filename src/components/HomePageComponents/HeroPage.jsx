@@ -5,7 +5,7 @@ import { Award, BadgeCheck } from 'lucide-react'
 
 const HeroPage = () => {
     return (
-        <section id="home" className="min-h-[90vh]  flex justify-center items-center  bg-no-repeat bg-cover bg-center pt-[10%] rounded-b-full md:rounded-b-[90px] relative" style={{
+        <section id="home" className="min-h-[90vh]  flex justify-center items-center  bg-no-repeat bg-cover bg-center pt-[10%]  md:rounded-b-[90px] relative" style={{
             backgroundImage: ` url(${heroimg})`,
         }}>
             <div className='hidden absolute bottom-0 left-40 right-40 mb-10 md:flex justify-between'>
