@@ -8,7 +8,7 @@ import { Tractor } from 'lucide-react'
 
 const AboutUs = () => {
   return (
-    <div id="about-us" className="py-20 px-4 sm:px-6 lg:px-40 bg-white text-[#011627]">
+    <div id="about-us" className="py-20 px-5 sm:px-6 lg:px-40 bg-white text-[#011627]">
       <div>
         <span className='text-sm '>WHO WE ARE</span>
         <h2 className='text-[#F5622A] text-3xl md:text-4xl font-bold'>ABOUT US</h2>

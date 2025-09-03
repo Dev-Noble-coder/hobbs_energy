@@ -84,7 +84,7 @@ const HeroPage = () => {
 
 
 
-            <div className='flex flex-col gap-10 justify-center items-center md:hidden px-10'>
+            <div className='flex flex-col gap-10 justify-center items-center md:hidden px-5'>
                 <div className='text-white text-sm '>
                     <h1 className='font-bold text-3xl pb-3'>Let the Sun Do the Work.</h1>
                     <p>Power your home or business with clean, reliable solar energy.</p>
